@@ -20,7 +20,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @WebMvcTest(PriceController.class)
-public class PriceControllerTest {
+class PriceControllerTest {
 
     private static final String URL = "/api/v1/prices";
     private static final LocalDateTime DATE = LocalDateTime.parse("2020-06-14T16:00:00");

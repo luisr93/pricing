@@ -19,7 +19,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-public class PriceServiceTest {
+class PriceServiceTest {
 
     private static final Long BRAND_ID = 1L;
     private static final Long PRODUCT_ID = 25744L;

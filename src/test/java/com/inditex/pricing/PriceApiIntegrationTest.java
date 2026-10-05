@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-public class PriceApiIntegrationTest {
+class PriceApiIntegrationTest {
 
     private static final String URL = "/api/v1/prices";
 
